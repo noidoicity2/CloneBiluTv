@@ -184,6 +184,9 @@ body {
 
 .left-content {
     width: 70%;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
 .right-content {
@@ -262,7 +265,7 @@ h2 a {
 }
 
 .film-img {
-    width: 98%;
+    width: 90%;
 }
 
 .film-name {
@@ -280,5 +283,126 @@ h2 a {
 
 .real-name {
     color: #88887b;
+}
+
+.right-content {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+}
+
+.right-caption {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    color:#6653a1 ;
+    font-size: 25px;
+    margin: 25px;
+    display: block;
+
+}
+.right-tab {
+    margin: 0 0 0 15px;
+    padding: 0;
+    display: block;
+    width: 100%;
+    min-height: 37px;
+    /*margin-bottom: 10px;*/
+}
+.right-tab li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 27%;
+
+    margin-right: 2%;
+    font-size: 20px;
+    line-height: 37px;
+    min-height: 37px;
+    color: white;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    background-color: #6653a1;
+    border-radius: 20px 0 20px 0 ;
+
+}
+
+.list-rating {
+    display: block;
+    clear: both;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding-left: 15px;
+
+}
+.list-rating>li:only-child {
+
+
+}
+
+.list-rating-item {
+    list-style-type: none;
+    width: 100%;
+    /*background-color: #152e3e;*/
+    display: block;
+    height: 98px;
+    margin-bottom: 10px;
+
+}
+.list-rating-item:hover {
+
+    background-color: #152e3e;
+
+
+}
+.list-rating-item a {
+    clear: both;
+   width: 100%;
+    display: block;
+    color: white;
+    /*background-color: red;*/
+}
+.img-rating {
+    height: 80px;
+    width: 15%;
+    object-fit: contain;
+    float: left;
+    overflow: hidden;
+
+    margin: 5px 5% 0 5%;
+    /*margin: 5px;*/
+
+
+
+}
+.right-container {
+    float: left;
+    width: 75%;
+    line-height: 30px;
+}
+.small-name {
+    color: #c29e6c;
+    text-transform: capitalize;
+    margin: 5px 0 0 0;
+}
+.small-real-name {
+    color: #999999;
+    margin: 0 ;
+}
+.view-count {
+    margin: 0;
+    font-style: italic;
+    color: #999999;
+    /*background-image: url("images/eye.png");*/
+}
+hr {
+    color:#162e42 ;
+}
+.eye-icon {
+    width: 20px;
 }
 
